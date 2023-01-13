@@ -1,5 +1,6 @@
-function myInfo(info) {
-    console.log(`My name is ${info}`);
+function myInfo(info,country, height) {
+    console.log('My name is ${info}, ${country}, ${height}');
+    alert("My name is" +" " +info + " "+"I live in "+country+" "+ "I am" + height);
 }
 
 myInfo("Sparkle");
